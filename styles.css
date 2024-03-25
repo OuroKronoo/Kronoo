@@ -1,0 +1,386 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #032D68;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    z-index: 1000;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: #F600BA;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 25px;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    position: relative;
+    top: 10px;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.logo-text {
+    color: #F600BA;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text span {
+    font-size: 16px;
+    color: #FFF;
+    margin-top: 3px;
+}
+
+.service-text {
+    margin-top: 0;
+}
+
+
+.a1 {
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120px;
+    color: #032D68;
+    text-shadow:
+        -1px -1px 0 #F600BA,
+        1px -1px 0 #F600BA,
+        -1px 1px 0 #F600BA,
+        1px 1px 0 #F600BA;
+
+}
+
+.a2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 96px;
+    margin-top: -30px;
+    color: #032D68;
+    text-shadow:
+        -1px -1px 0 #F600BA,
+        1px -1px 0 #F600BA,
+        -1px 1px 0 #F600BA,
+        1px 1px 0 #F600BA;
+}
+
+.a3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.content {
+    top: -100px;
+    text-align: center;
+    font-size: large;
+}
+
+.content2 {
+    position: relative;
+    text-align: center;
+    margin-top: -1100px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.content2-content {
+    position: relative;
+    z-index: -1;
+    top: 1100px;
+    background-size: 350%;
+    opacity: 0.5;
+}
+
+.image2 {
+    position: relative;
+    left: 300px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image1 {
+    position: relative;
+    right: 330px;
+    bottom: -367px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image3 {
+    position: relative;
+    right: 330px;
+    top: -310px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    z-index: 1;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+
+.proj {
+    text-align: center;
+    position: relative;
+    top: -290px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content3 {
+    text-align: center;
+}
+
+.content3 img {
+    width: 1200px;
+    height: auto;
+}
+
+.content4 img {
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content3 {
+    background-color: gray;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    top: 170px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.left-column {
+    border-right: 1px solid #A7AAB2;
+}
+
+.column {
+    padding: 10px;
+    flex-direction: column;
+    border: 1px solid #A7AAB2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #E5E6E8;
+    background-color: #A7AAB2;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        border: none;
+        padding: 10px 0;
+    }
+
+    .column:last-child {
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    overflow-x: hidden;
+    /* Prevent horizontal scroll */
+
+}
+
+.slidershow {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 230px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover {
+    background: #fff;
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+    animation: slide-animation 30s infinite;
+}
+
+.slide {
+    width: 20%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes slide-animation {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -400%;
+    }
+}
+
+.bf {
+    position: relative;
+    top: 180px;
+    right: -70px;
+}
+
+.fb {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    top: 100px;
+    right: -66px;
+}
+
+.ig {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    top: 140px;
+    right: -66px;
+}
+
+.end-image {
+    display: none;
+}
+
+.content4 a:hover+.end-image {
+    display: block;
+}
+@media only screen and (max-width: 768px) {
+}
+  
+@media only screen and (max-width: 480px) {
+}
